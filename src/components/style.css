@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .portfolio-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #111; /* Darker background color for the navigation bar */
+  }
+  
+  .nav-link {
+    cursor: pointer;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #333; /* Darker color on hover */
+  }
+  
+  .home, .about, .skills, .projects, .contact {
+    padding: 40px;
+    background-color: #000; /* Dark background color for sections */
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+  
+  .main-title {
+    font-size: 2.5em;
+    color: #f666ff; /* Accent color for main title */
+    margin-bottom: 10px;
+  }
+  
+  .sub-title {
+    font-size: 1.2em;
+    color: #ddd; /* Lighter color for sub title */
+  }
+  
+  h2 {
+    font-size: 2em;
+    color: #f666ff; /* Accent color for section titles */
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.8em;
+    color: #f666ff; /* Accent color for project titles */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+    font-size: 1.2em;
+    color: #ddd; /* Lighter color for list items */
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .popup-info:hover {
+    transform: scale(1.1); /* Popup effect on hover */
+  }
+  
+  a {
+    color: #f666ff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #e74c3c; /* Lighter accent color on hover */
+  }
